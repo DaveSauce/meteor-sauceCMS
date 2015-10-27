@@ -2,7 +2,7 @@
 
 Super simple CMS package using contentEditable See a demo at [http://sauceCMS.meteor.com](http://sauceCMS.meteor.com).
 
-This package was by created by [http://twitter.com/dave_bascom](@dave_bascom), [http://twitter.com/devanbeitel](@devanbeitel), and [http://twitter.com/jesseflorig](@jesseflorig) for the [Meteor Space Camp](http://www.meteorspace.camp) Hackathon.
+This package was by created by [@dave_bascom](http://twitter.com/dave_bascom), [@devanbeitel](http://twitter.com/devanbeitel), and [@jesseflorig](http://twitter.com/jesseflorig) for the [Meteor Space Camp](http://www.meteorspace.camp) Hackathon.
 
 ## Installation
 ```
