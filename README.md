@@ -9,8 +9,17 @@ meteor add davesauce:sauceCMS
 
 ## Description
 
-TODO: Say some more along the lines of *"Super simple CMS package using contentEditable"*
+When you install sauceCMS you will need to setup some settings in your `settings.json` file. Below is an example:
 
+```
+{
+  "public": {
+    "sauceCMS": {
+      "layoutName": "sampleLayout",
+      "superAdmin": "superAdmin@example.com"
+    }
+  }
+}
+```
 
-- [ ] Settings.json - layoutName
-- [ ] Role
+If you are not using a layout named `layout` then you will need to specify your layout name. Also be sure to add a superAdmin so that invidual can access `/saucecms-admin` to assign other superAdmins and admins to edit content.
