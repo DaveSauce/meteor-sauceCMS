@@ -1,0 +1,13 @@
+<template name="sauceCMS">
+  <span class="sauceCMS__edit {{canEditStyle}}" contenteditable={{canEdit}}>{{sauceCMS elementName}}</span>
+  {{#if isEditing}}
+    <span class="sauceCMS__edit__button-box">
+      <a class="sauceCMS__edit__button-submit">
+        <i class="fa fa-check-circle-o"></i>
+      </a>
+      <a class="sauceCMS__edit__button-cancel">
+        <i class="fa fa-times-circle-o"></i>
+      </a>
+    </span>
+  {{/if}}
+</template>

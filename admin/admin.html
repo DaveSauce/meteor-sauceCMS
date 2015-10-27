@@ -1,0 +1,29 @@
+<template name="sauceCMSAdmin">
+  <div class="container">
+    {{#if isInRole 'superAdmin'}}
+      <h1>Users</h1>
+      {{#if Template.subscriptionsReady}}
+      <table class="table table-sm table-hover">
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each users}}
+            <tr>
+              <td>{{emails.[0].address}}</td>
+              <td><a href="#" class="makeAdminBtn">Make Admin</a></td>
+              <td><a href="#" class="makeSuperAdminBtn">Make Super Admin</a></td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      {{/if}}
+    {{else}}
+      <h1>Not Authorized</h1>
+    {{/if}}
+  </div>
+</template>

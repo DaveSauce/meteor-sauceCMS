@@ -1,0 +1,30 @@
+.sauceCMS.canEdit:focus {
+  background-color: #ffd;
+  color: #000;
+  outline:none;
+}
+.sauceCMS__edit.canEdit:hover {
+  outline: none;
+  cursor:text;
+}
+
+.sauceCMS__edit__button-box {
+  font-size: 1.4em;
+}
+
+.sauceCMS__edit__button-box a {
+  border: none;
+  width: 50px;
+  height: 30px;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.sauceCMS__edit__button-submit {
+  color: #6cc644;
+}
+.sauceCMS__edit__button-cancel {
+  color: #bd2c00;
+}
