@@ -15,6 +15,9 @@ Then wherever you want easily editable text, install:
 ```
 {{> sauceCMS elementName="uniqueElementName"}}
 ```
+
+Text will appear inside that tag that can be edited by users with `superAdmin` status. There is no admin or CMS panel to fuss with - just click and start typing. The text will maintain the surrounding style, so editors cannot alter the original design. 
+
 `uniqueElementName` must be unique for each sauceCMS tag you install. Alternatively, you could repeat the same `elementName` across multiple elements if you want all of them to be updated when one is edited. 
 
 ## Description
