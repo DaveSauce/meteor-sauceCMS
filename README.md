@@ -9,6 +9,14 @@ This package was by created by [@dave_bascom](http://twitter.com/dave_bascom), [
 meteor add davesauce:sauceCMS
 ```
 
+## Usage
+Then wherever you want easily editable text, install:
+
+```
+{{> sauceCMS elementName="uniqueElementName"}}
+```
+`uniqueElementName` must be unique for each sauceCMS tag you install. Alternatively, you could repeat the same `elementName` across multiple elements if you want all of them to be updated when one is edited. 
+
 ## Description
 
 When you install sauceCMS you will need to setup some settings in your `settings.json` file. Below is an example:
